@@ -321,6 +321,7 @@
       {innerWidth}
       tabTags={config.tabTags}
       role={normalizedRole}
+      {party}
       fightKey={config.fightKey}
       mechToggles={(config.toggles ?? []).filter((t) => t.isMechToggle)}
     />
@@ -330,6 +331,7 @@
       {individualStrat}
       {spotlight}
       role={normalizedRole}
+      {party}
       bind:popOut={overlayPopOut}
       bind:popIn={overlayPopIn}
       bind:isPopped={overlayIsPopped}
@@ -585,6 +587,7 @@
                 {alignment}
                 tabTags={config.tabTags}
                 role={normalizedRole}
+                {party}
                 fightKey={config.fightKey}
                 useMainPageTabs={config.useMainPageTabs}
                 bind:currentTab

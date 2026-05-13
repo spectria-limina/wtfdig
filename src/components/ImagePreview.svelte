@@ -69,7 +69,7 @@
           {#if mech.strats[0].toggleKey}
             <span class="shrink-0">⏩</span>
           {:else if role}
-            <RoleIcon {role} class="w-4 h-4 lg:w-6 lg:h-6 mt-1" />
+            <RoleIcon {role} {party} class="w-4 h-4 lg:w-6 lg:h-6 mt-1" />
           {/if}
         {/if}
         <div class="whitespace-pre-wrap">

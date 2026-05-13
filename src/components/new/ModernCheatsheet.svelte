@@ -74,6 +74,7 @@
     alignment,
     tabTags = null,
     role = null,
+    party = null,
     splitTimeline = false,
     useEvenTimelineSpacing: useEvenTimelineSpacingProp = false,
     innerWidth = 1920,
@@ -996,6 +997,7 @@
   phase={imageModalProps.phase}
   {spotlight}
   {role}
+  {party}
 />
 
 <Modal
@@ -1478,7 +1480,7 @@
                       {#if stratToggleKey}
                         <span class="shrink-0">⏩</span>
                       {:else if role}
-                        <RoleIcon {role} />
+                        <RoleIcon {role} {party} />
                       {/if}
                       <div class="whitespace-pre-wrap text-left flex-1 min-w-0">
                         {@html renderDebuffTokens(stratDesc)}

@@ -21,6 +21,7 @@
     individualStrat,
     spotlight = true,
     role = null,
+    party = null,
     title = 'Strat Overlay',
     popOut = $bindable<() => Promise<void>>(async () => {}),
     popIn = $bindable<() => void>(() => {}),
@@ -208,7 +209,7 @@
                 {#if current.stratDesc}
                   <div class="flex items-start gap-2 text-sm text-surface-50 leading-snug mt-1">
                     {#if role}
-                      <RoleIcon {role} />
+                      <RoleIcon {role} {party} />
                     {/if}
                     <div class="whitespace-pre-wrap flex-1 min-w-0">
                       {@html renderDebuffTokens(current.stratDesc)}

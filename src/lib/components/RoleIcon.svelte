@@ -7,7 +7,7 @@
     class?: string;
   }
 
-  let { role, class: className = 'w-5 h-5' }: Props = $props();
+  let { role, party, class: className = 'w-5 h-5' }: Props = $props();
 </script>
 
-<img src={`/icons/${role.toLowerCase()}.png`} alt={role} class="shrink-0 {className}" />
+<img src={`/icons/${role.toLowerCase()}.png`} alt="{role} {party}" class="shrink-0 {className}" />

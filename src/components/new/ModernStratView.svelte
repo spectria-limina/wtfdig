@@ -38,6 +38,7 @@
     tabTags = null,
     useMainPageTabs = false,
     role = null,
+    party = null,
     currentTab = $bindable()
   }: Props = $props();
 
@@ -402,7 +403,7 @@
                             {#if mech.strats[0].toggleKey}
                               <span class="shrink-0">⏩</span>
                             {:else if role}
-                              <RoleIcon {role} class="w-5 h-5 mt-0.5" />
+                              <RoleIcon {role} {party} class="w-5 h-5 mt-0.5" />
                             {/if}
                           {/if}
                           <div class="whitespace-pre-wrap">
