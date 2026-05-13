@@ -122,7 +122,7 @@
 </script>
 
 <svelte:head>
-  <title>WTFDIG!? {config.abbreviatedTitle ?? config.title}</title>
+  <title>WTFDAG!? {config.abbreviatedTitle ?? config.title}</title>
 </svelte:head>
 
 <svelte:window bind:scrollY />

@@ -30,18 +30,8 @@
           <a
             href="{base}/"
             class="flex flex-row items-center text-2xl font-semibold my-4 md:my-0 justify-self-center gap-1"
-            >WTFDIG<img width="32px" src="{base}/wtfdig-small-800.png" alt="WTFDIG logo" /></a
+            >WTFDAG<img width="32px" src="{base}/wtfdig-small-800.png" alt="WTFDAG logo" /></a
           >
-          <div
-            class="card preset-outlined-secondary-500 gap-4 p-4 md:justify-self-end text-sm hidden md:block"
-          >
-            WTFDIG is now at <a
-              target="_blank"
-              rel="noopener noreferrer"
-              class="anchor"
-              href="https://wtfdig.info">WTFDIG.info</a
-            >
-          </div>
         </div>
       </header>
 

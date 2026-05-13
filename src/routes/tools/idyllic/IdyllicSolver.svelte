@@ -67,11 +67,11 @@
 </script>
 
 <svelte:head>
-  <title>WTFDIG!? Idyllic Helper</title>
+  <title>WTFDAG!? Idyllic Helper</title>
   <meta name="description" content="Quick solver tool for M12S Idyllic Dream mechanic" />
 </svelte:head>
 
-<PipPortal width={360} height={640} title="WTFDIG Idyllic Helper" rootFontSize={15}>
+<PipPortal width={360} height={640} title="WTFDAG Idyllic Helper" rootFontSize={15}>
   {#snippet placeholder({ popIn })}
     <div
       class="flex flex-col gap-3 p-4 md:p-6 w-full max-w-[500px] md:max-w-[600px] mx-auto items-start"

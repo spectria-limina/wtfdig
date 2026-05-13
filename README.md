@@ -1,8 +1,8 @@
-# WTFDIG - Where The F\*ck Do I Go?
+# WTFDAG - Where The F\*ck Does Aero Go?
 
-WTFDIG is a helper tool for Final Fantasy XIV players that enables them to view condensed strategy guides for various high-end duties. Users can select a fight, specific strategies, their role, and their light party to get customized, easy-to-read guides with visual aids.
+WTFDIG is a helper tool for Final Fantasy XIV players that enables them to view condensed strategy guides for various high-end duties. Users can select a fight, specific strategies, their role, and their light party to get customized, easy-to-read guides with visual aids. WTFDIG was written by mara and is hosted at <https://wtfdig.info/>.
 
-This project is built with SvelteKit and Tailwind CSS, and it is designed to be a fast, client-side, statically-generated website.
+This is WTFDAG, a fork & private instance of WTFDIG, made with mara's permission. If you know why you are here, please look elsewhere.
 
 ## Getting Started
 
@@ -15,10 +15,13 @@ This project uses [Bun](https://bun.sh/) as the package manager and runtime. Ple
 ### Installation
 
 1. Clone the repo:
+
    ```sh
    git clone https://github.com/mczub/wtfdig.git
    ```
+
 2. Install dependencies:
+
    ```sh
    bun install
    ```
